@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,18 +13,31 @@ export default function Home() {
           height={38}
           priority
         />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+        <div className="text-center sm:text-left">
+          <h1 className="text-3xl font-bold mb-4">Welcome to Next.js Authentication App</h1>
+          <p className="text-lg mb-6">A full-stack authentication system with MongoDB and JWT</p>
+          
+          <div className="flex gap-4 mb-6">
+            <Link 
+              href="/login"
+              className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-md transition-colors"
+            >
+              Login
+            </Link>
+            <Link 
+              href="/signup"
+              className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-md transition-colors"
+            >
+              Sign Up
+            </Link>
+            <Link 
+              href="/profile"
+              className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-md transition-colors"
+            >
+              Profile
+            </Link>
+          </div>
+        </div>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
