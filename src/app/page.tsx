@@ -16,21 +16,21 @@
 //         <div className="text-center sm:text-left">
 //           <h1 className="text-3xl font-bold mb-4">Welcome to Next.js Authentication App</h1>
 //           <p className="text-lg mb-6">A full-stack authentication system with MongoDB and JWT</p>
-          
+
 //           <div className="flex gap-4 mb-6">
-//             <Link 
+//             <Link
 //               href="/login"
 //               className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-md transition-colors"
 //             >
 //               Login
 //             </Link>
-//             <Link 
+//             <Link
 //               href="/signup"
 //               className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-md transition-colors"
 //             >
 //               Sign Up
 //             </Link>
-//             <Link 
+//             <Link
 //               href='/profile'
 //               className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-md transition-colors"
 //             >
